@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html; charset=IANAcharset">
+    <script type="text/javascript"></script>
+    <script type="text/javascript" src="jquery-3.6.0.min.js" ></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" 
+    integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" estilo.css></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"/>
+    <link rel="stylesheet"  type="text/css" href="style.css" media="screen"/> 
+    <link rel="CSS/stylesheet.css" type="text/css" href="style.css"/>  
+    <link rel="HTML/stylesheet.html"  type="text/html" href="style.html" media="screen"> 
+    <title>Cadastro de Usuário</title>
+</head>
+<body>
+    
+    <div>
+        <h1>Cadastro</h1> 
+        <a href="#"></a>
+        <form method="POST">
+            <br>
+    </div>
+    <div style="width:40%"> 
+        <div class="form-group">
+            <label for="nome">ID:</label>
+            <input class="form-control" type="text" name="id" id="id"  
+            data-is-module="charCounter"  
+            required placeholder="Digite o seu ID"><br>
+        </div>
+        <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input class="form-control" type="text" id="nome" 
+            data-is-module="charCounter" maxlength="20" name="nome" 
+            required placeholder="Digite o seu nome e sobrenome"><br>
+        </div>
+        <div class="form-group">
+            <label for="nome">Email:</label>
+            <input class="form-control" type="text" name="email" id="email"  
+            data-is-module="charCounter" maxlength="60" 
+            required placeholder="Digite o seu email"><br>
+        </div>
+        <div class="form-group">
+            <label for="nome">Senha:</label>
+            <input class="form-control" type="password" name="senha" id="senha"  
+            data-is-module="charCounter" placeholder="Digite sua Senha" maxlength="5"
+            required><br>
+        </div>
+        <div class="form-group">
+            <label for="nome">Data de Criação:</label>
+            <input class="form-control date placeholder" type="text" name="dtcriacao" id="dtcriacao"
+            data-is-module="charCounter" placeholder="00/00/0000" maxlength="10" 
+            required><br>
+        </div>
+        <div class="form-group">
+            <label for="nome">Data Atual:</label>
+            <input class="form-control date placeholder" type="text" name="dtatual" id="dtatual" 
+            placeholder="00/00/0000"  maxlength="10" required><br> 
+            </div>
+        </form>
+    <br>
+    <div class="row">
+        <div class="col-md-2">
+            <button class="btn btn-primary" type= "button" onclick="salvar()">Salvar</button>
+            
+            <br>
+        </div>
+    </div>
+    <br>
+    
+</body>
+</html>
